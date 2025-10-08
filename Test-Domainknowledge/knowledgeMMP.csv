@@ -1,0 +1,4 @@
+Normative Activity;PAC;Impact action;Deviating activity
+wait;fire;addAfter;box
+box;storm;addAfter;doc
+doc;storm;remove;

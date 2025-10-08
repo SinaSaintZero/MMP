@@ -1,0 +1,4 @@
+Normative Activity;PAC;Impact action;Deviating activity
+Reception_Waiting_room;rules_and_procedure;addAfter;Registration_Priorities
+Registration;Human related;addAfter;Reception_Waiting_room
+Box_Consultations;Equipment;addAfter;Waiting_Area_for_Checout_UROLOGY
