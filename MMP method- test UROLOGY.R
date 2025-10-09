@@ -1,5 +1,5 @@
                   #------------------ MMP method : Test on Urology dataset -----------------------
-                    
+                      # Author: Dr. Sina NAMAKI ARAGHI
                         # First: Please give us the NORMATIVE PROCESS
                   
                         # Second: Please provide the DOMAIN KNOWLEDGE (set of rules) for the application
@@ -16,9 +16,17 @@
                   
                            # --------------- Execution of the MMP method ---------------------
                                               #step 1: normative process
+                  #normativeProcessString<- toString(process) -> extracted from the Stable Heuristic Miner
+
+                  # For the development of that algorithm you can refer to the publications in :
+                  # Stable Heuristic Miner 1 -> DOI : https://doi.org/10.1016/j.iswa.2022.200071
+                  # Stable Heuristic Miner 2 -> DOI : https://doi.org/10.1007/s44230-024-00064-4
+
+                  # To just test the method we provided the example below:
+
                   process <- c("Enter_consultation", "Reception_Waiting_room", "Registration", "Waiting_Room5",
                                "Box_Consultations", "Checkout_Office_UROLOGY", "Exit")
-                  #normativeProcessString<- toString(process)
+                  
                   
                            # --------------- Execution of the MMP method ---------------------
                                             # STEP 2: The domain knowledge: rules of deviations
